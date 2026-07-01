@@ -1,1 +1,9 @@
-// O Copilot vai te ajudar a implementar o handler do formulário no Step 4.
+document.querySelector('form')?.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const status = document.createElement('div');
+  status.setAttribute('role', 'status');
+  status.textContent = 'Inscrição confirmada!';
+
+  document.querySelector('main')?.appendChild(status);
+});
