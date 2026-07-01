@@ -1,0 +1,15 @@
+{
+  "name": "playwright-com-copilot",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Exercício: Playwright com Copilot (MCP + Skills + TDD)",
+  "scripts": {
+    "start": "npx http-server public -p 3000 -c-1 --silent",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "http-server": "^14.1.1"
+  }
+}
